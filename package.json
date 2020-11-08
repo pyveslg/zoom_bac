@@ -1,0 +1,17 @@
+{
+  "name": "Zoom Bac",
+  "version": "1.0.0",
+  "description": "Zoom Bac",
+  "main": "index.js",
+  "repository": "https://github.com/pyveslg/lewagon/zoom_bac",
+  "author": "pyveslg",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
