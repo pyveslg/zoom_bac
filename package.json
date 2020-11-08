@@ -1,5 +1,5 @@
 {
-  "name": "Zoom Bac",
+  "name": "zoom_bac",
   "version": "1.0.0",
   "description": "Zoom Bac",
   "main": "index.js",
@@ -13,5 +13,8 @@
     "webpack": "^4.25.1",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "stimulus": "^1.1.1"
   }
 }
