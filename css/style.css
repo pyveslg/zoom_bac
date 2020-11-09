@@ -68,3 +68,11 @@
   justify-content: center;
   display: inline-flex;
 }
+
+.swal2-content li {
+	padding: 0 1rem 1rem;
+}
+
+.swal2-content li:first-child {
+	padding: 1rem;
+}

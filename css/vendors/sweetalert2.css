@@ -436,7 +436,7 @@
   font-size: 1.125em;
   font-weight: normal;
   line-height: normal;
-  text-align: center;
+  text-align: left !important;
   word-wrap: break-word;
 }
 
