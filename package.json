@@ -7,6 +7,7 @@
   "author": "pyveslg",
   "license": "MIT",
   "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.12.1",
     "eslint": "^5.9.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
@@ -15,6 +16,13 @@
     "webpack-dev-server": "^3.1.10"
   },
   "dependencies": {
-    "stimulus": "^1.1.1"
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/runtime": "^7.12.5",
+    "animate.css": "^4.1.1",
+    "babel-loader": "^8.1.0",
+    "stimulus": "^1.1.1",
+    "sweetalert2": "^10.9.0"
   }
 }

@@ -1,15 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
     <meta charset="UTF-8">
     <title>Baccalauréat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
-  <body>
-    <p style="margin-top: 40vh; text-align: center; font: normal 24px monospace;">
-      Open the console 🤓
-    </p>
+  <body data-controller="game">
+  	<div class="d-flex flex-column" style="height: 100vh;">
+	  	<div class="border-bottom">
+		  	<div class="container">
+		  		<div class="header d-flex align-items-center justify-content-between">
+		  			<h2 class="text-center my-3">Le Baccalauréat</h2>
+		  			<div class="right">
+		  				<a href="#" class="btn btn-primary" data-action="click->game#addPlayerForm">Ajouter un joueur</a>
 
-    <!-- Add some HTML in here -->
+		  			</div>
+		  		</div>
+		  	</div>
+	  	</div>
+	    <!-- Add some HTML in here -->
+	    <div class="container flex-grow d-flex flex-column align-items-center justify-content-center">
+	    	<div data-target="game.mainContainer" class="w-100 my-3"></div>
+	    	<div data-target="game.categoryContainer" class="category-container animate__animated"></div>
+	    	<div data-target="game.letterContainer" class="letter-container animate__animated"></div>
+	    	<a href="#" class="btn btn-danger" data-action="click->game#fetchLetter">C'est parti ! 😊</a>
+	    </div>
+
+	    <div class="border-top pt-3">
+	    	<div class="container players">
+		    	<h5 data-target="game.numPlayers"><b>0</b> Joueurs</h5>
+		    	<ul class="list-inline d-flex" data-target="game.playerList"></ul>
+	    	</div>
+	    </div>
+  	</div>
 
     <script src="main.js"></script>
   </body>
