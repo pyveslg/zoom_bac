@@ -28,7 +28,7 @@ export default class extends Controller {
 			  /* Read more about isConfirmed, isDenied below */
 				  if (result.isConfirmed) {
 				  	this.playerTargets.forEach((player) => {
-				  		const score = parseInt(player.dataset.score, 10);
+				  		const score = parseInt(player.dataset.score, 5);
 				  		const new_score = (score === 0 ) ? 0 : (score - 1);
 				  		player.dataset.score = new_score;
 				  		player.innerHTML = `${player.dataset.name} <span class="points">${new_score}</span>`;
